@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/create-page" element={<CreatePage />} />
+        <Route path="/create-page:id" element={<CreatePage />} />
         <Route path="/edit-page" element={<EditPage />} />
         <Route path="/single-page" element={<SinglePage />} />
       </Routes>
